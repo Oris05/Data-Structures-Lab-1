@@ -9,6 +9,9 @@ public class TestClass {
 		list.add(1, "car");
 		list.add(2, "bike");
 		list.add(3, "ship");
-		System.out.print("After adding items the size is now :"+list.size());
+		System.out.println("After adding items the size is now :"+list.size());
+		//test remove
+		list.remove(1);
+		System.out.println("After removing an item th list size is now :"+list.size());
 	}
 }
